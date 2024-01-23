@@ -1,50 +1,192 @@
 {
-	"version":"1.0.0",
-	"model":"model.moc",
-    "textures":[
-        "textures/default-costume.png"
-    ],
-    "layout":{
-		"center_x":0.0,
-		"center_y":-0.05,
-		"width":2.0
+	"version": "1.0.0",
+	"model": "model.moc",
+	"textures": [
+		"textures/1.png",
+		"textures/2.png",
+		"textures/3.png",
+		"textures/4.png",
+		"textures/5.png",
+		"textures/6.png",
+		"textures/7.png",
+		"textures/8.png",
+		"textures/9.png",
+		"textures/10.png",
+		"textures/11.png",
+		"textures/12.png",
+		"textures/13.png",
+		"textures/14.png",
+		"textures/15.png",
+		"textures/16.png",
+		"textures/17.png",
+		"textures/18.png",
+		"textures/19.png",
+		"textures/20.png",
+		"textures/21.png",
+		"textures/22.png",
+		"textures/23.png",
+		"textures/24.png",
+		"textures/25.png",
+		"textures/26.png",
+		"textures/27.png",
+		"textures/28.png",
+		"textures/29.png",
+		"textures/30.png",
+		"textures/31.png",
+		"textures/32.png",
+		"textures/33.png",
+		"textures/34.png",
+		"textures/35.png",
+		"textures/36.png",
+		"textures/37.png",
+		"textures/38.png",
+		"textures/39.png",
+		"textures/40.png",
+		"textures/41.png",
+		"textures/42.png",
+		"textures/43.png",
+		"textures/44.png",
+		"textures/45.png",
+		"textures/46.png",
+		"textures/47.png",
+		"textures/48.png",
+		"textures/49.png",
+		"textures/50.png",
+		"textures/51.png",
+		"textures/52.png",
+		"textures/53.png",
+		"textures/54.png",
+		"textures/55.png",
+		"textures/56.png",
+		"textures/57.png",
+		"textures/58.png",
+		"textures/59.png",
+		"textures/60.png",
+		"textures/61.png",
+		"textures/62.png",
+		"textures/63.png",
+		"textures/64.png",
+		"textures/65.png",
+		"textures/66.png",
+		"textures/67.png",
+		"textures/68.png",
+		"textures/69.png",
+		"textures/70.png",
+		"textures/71.png",
+		"textures/72.png",
+		"textures/73.png",
+		"textures/74.png",
+		"textures/75.png",
+		"textures/76.png",
+		"textures/77.png",
+		"textures/78.png",
+		"textures/79.png",
+		"textures/80.png",
+		"textures/81.png",
+		"textures/82.png",
+		"textures/83.png",
+		"textures/84.png",
+		"textures/85.png",
+		"textures/86.png",
+		"textures/87.png"
+	],
+	"layout": {
+		"center_x": 0.0,
+		"center_y": -0.05,
+		"width": 2.0
 	},
-	"hit_areas_custom":{
-		"head_x":[-0.35, 0.6],
-		"head_y":[0.19, -0.2],
-		"body_x":[-0.3, -0.25],
-		"body_y":[0.3, -0.9]
+	"hit_areas_custom": {
+		"head_x": [
+			-0.35,
+			0.6
+		],
+		"head_y": [
+			0.19,
+			-0.2
+		],
+		"body_x": [
+			-0.3,
+			-0.25
+		],
+		"body_y": [
+			0.3,
+			-0.9
+		]
 	},
-	"motions":{
-		"idle":[
-			{"file":"motions/Breath1.mtn"},
-			{"file":"motions/Breath2.mtn"},
-			{"file":"motions/Breath3.mtn"},
-			{"file":"motions/Breath5.mtn"},
-			{"file":"motions/Breath7.mtn"},
-			{"file":"motions/Breath8.mtn"}
+	"motions": {
+		"idle": [
+			{
+				"file": "motions/Breath1.mtn"
+			},
+			{
+				"file": "motions/Breath2.mtn"
+			},
+			{
+				"file": "motions/Breath3.mtn"
+			},
+			{
+				"file": "motions/Breath5.mtn"
+			},
+			{
+				"file": "motions/Breath7.mtn"
+			},
+			{
+				"file": "motions/Breath8.mtn"
+			}
 		],
-		"sleepy":[
-			{"file":"motions/Sleeping.mtn"}
+		"sleepy": [
+			{
+				"file": "motions/Sleeping.mtn"
+			}
 		],
-		"flick_head":[
-			{"file":"motions/Touch Dere1.mtn"},
-			{"file":"motions/Touch Dere2.mtn"},
-			{"file":"motions/Touch Dere3.mtn"},
-			{"file":"motions/Touch Dere4.mtn"},
-			{"file":"motions/Touch Dere5.mtn"},
-			{"file":"motions/Touch Dere6.mtn"}
+		"flick_head": [
+			{
+				"file": "motions/Touch Dere1.mtn"
+			},
+			{
+				"file": "motions/Touch Dere2.mtn"
+			},
+			{
+				"file": "motions/Touch Dere3.mtn"
+			},
+			{
+				"file": "motions/Touch Dere4.mtn"
+			},
+			{
+				"file": "motions/Touch Dere5.mtn"
+			},
+			{
+				"file": "motions/Touch Dere6.mtn"
+			}
 		],
-		"tap_body":[
-			{"file":"motions/Sukebei1.mtn"},
-			{"file":"motions/Sukebei2.mtn"},
-			{"file":"motions/Sukebei3.mtn"},
-			{"file":"motions/Touch1.mtn"},
-			{"file":"motions/Touch2.mtn"},
-			{"file":"motions/Touch3.mtn"},
-			{"file":"motions/Touch4.mtn"},
-			{"file":"motions/Touch5.mtn"},
-			{"file":"motions/Touch6.mtn"}
+		"tap_body": [
+			{
+				"file": "motions/Sukebei1.mtn"
+			},
+			{
+				"file": "motions/Sukebei2.mtn"
+			},
+			{
+				"file": "motions/Sukebei3.mtn"
+			},
+			{
+				"file": "motions/Touch1.mtn"
+			},
+			{
+				"file": "motions/Touch2.mtn"
+			},
+			{
+				"file": "motions/Touch3.mtn"
+			},
+			{
+				"file": "motions/Touch4.mtn"
+			},
+			{
+				"file": "motions/Touch5.mtn"
+			},
+			{
+				"file": "motions/Touch6.mtn"
+			}
 		]
 	}
 }
